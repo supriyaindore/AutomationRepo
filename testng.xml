@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="3" name="C:/Users/ganesh.jadhav/Repo/MorningTehnoStudy">
+        <classes>
+            <class name="test.LoginTest">
+                <methods>
+                    <include name="verifyLoginTest1"/>
+                    <include name="verifyLoginTest2"/>
+                    <include name="verifyLoginTest3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
